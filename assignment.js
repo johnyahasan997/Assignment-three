@@ -6,8 +6,8 @@ function kilometerToMeter(kilometer){
     else{
         var result = kilometer * 1000; // 1 kilometer = 1000 meter;
         return result;
-    }
-}
+    };
+};
 
 // Problem-2(budgetCalculator) Solution:
 function budgetCalculator(watch,phone,laptop){
@@ -20,8 +20,8 @@ function budgetCalculator(watch,phone,laptop){
       var laptop = laptop * 500;
       var totalCost = watch + phone + laptop;
       return totalCost;
-  }
-}
+  };
+};
 
 // Problem-3(hotelCost) Solution:
 function hotelCost(stayHotel){
